@@ -31,6 +31,7 @@ header > h1 {
     font-variant: small-caps; /*text em maiusculo*/
     font-family: var(--font02);
     font-size: 9.5vw;
+    
 }
 header > p {
     padding-bottom: 50px;
@@ -80,4 +81,11 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+div h1{
+    background-image: linear-gradient ( to bottom, yellow, orange, red);
+color: black;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
